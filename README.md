@@ -111,14 +111,19 @@
       <td>해쉬 코드를 입력하게 되면 해당 버전으로 변경<br>단, 권장하지 않는 방법</td>
     </tr>
     <tr>
+      <td>git switch Branch명</td>
+      <td>브랜치 이동</td>
+      <td>git checkout은 복원 기능도 있어 혼란을 야기할 수 있어 브랜치 이동 전용 명령어 추가</td>
+    </tr>
+    <tr>
       <td>git branch Branch명</td>
       <td>Branch 생성</td>
       <td></td>
     </tr>
     <tr>
-      <td>git checkout -b Branch명</td>
+      <td>git checkout -b Branch명<br>git switch -c Branch명</td>
       <td>Branch 생성 + 변경</td>
-      <td>새로운 branch 생성과 동시에 생성된 branch로 변경</td>
+      <td>-b : branch<br>-c : create</td>
     </tr>
     <tr>
       <td>git branch -d Branch명</td>
