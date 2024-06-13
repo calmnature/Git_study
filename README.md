@@ -166,6 +166,11 @@
       <td>Remote이름의 주소지에 Branch를 밀어넣음</td>
     </tr>
     <tr>
+      <td>git push -u Remote명 Branch명</td>
+      <td>축약 설정</td>
+      <td>git push만 입력하여도 git push Remote명 Branch명이 되도록 설정</td>
+    </tr>
+    <tr>
       <td>git pull Remote명 Branch명</td>
       <td>Remote Repository -> Local Repository Pull</td>
       <td>해당 원격지의 Branch를 Local Repsotiroy로 가져옴<br>자동 병합(Merge)</td>
