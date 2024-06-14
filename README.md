@@ -190,6 +190,34 @@
       <td>Remote Repository -> Local Repository 복사</td>
       <td>해당 원격지의 모든 것을 Local Repsotiroy로 복사</td>
     </tr>
-
+    <tr>
+      <td>git reset --명령어 CommitID</td>
+      <td>버전 되돌리기</td>
+      <td>
+        --hard : 코드&커밋 삭제<br>
+        --soft : 코드 유지 & 커밋 삭제(git add 후 상태)<br>
+        --mixed : 코드 유지 & 커밋 삭제(git add 전 상태)
+      </td>
+    </tr>
+    <tr>
+      <td>git revert CommitID</td>
+      <td>버전 되돌리기</td>
+      <td>git reset은 돌아가면 이력까지 삭제 되지만, revert는 해당 CommitID의 취소 이력(commit)이 새로 생성</td>
+    </tr>
+    <tr>
+      <td>git stash -u -m "메세지"</td>
+      <td>코드 임시 저장</td>
+      <td>-u를 사용하지 않을경우 새로운 파일(commit되지 않은 파일)은 저장되지 않음</td>
+    </tr>
+    <tr>
+      <td>git stash list</td>
+      <td>임시 저장 내역 확인</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>git stash apply <stash@뒤 숫자></td>
+      <td>임시 저장 로드</td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
