@@ -51,9 +51,14 @@
       <td>History에 누가 작업했는지 확인 가능</td>
     </tr>
     <tr>
-      <td>git config --global user.name "작업자 이메일"</td>
+      <td>git config --global user.email "작업자 이메일"</td>
       <td>작업자 이메일 전역 설정</td>
       <td>History에 누가 작업했는지 확인 가능</td>
+    </tr>
+    <tr>
+      <td>git config --list</td>
+      <td>Git 설정 확인</td>
+      <td>q 입력 시 빠져나옴</td>
     </tr>
     <tr>
       <td>git init</td>
