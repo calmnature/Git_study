@@ -186,11 +186,6 @@
       <td>해당 원격지의 Branch를 Local Repsotiroy로 가져옴<br>자동 병합(Merge)</td>
     </tr>
     <tr>
-      <td>git pull Remote명 Branch명</td>
-      <td>Remote Repository -> Local Repository Pull</td>
-      <td>해당 원격지의 Branch를 Local Repsotiroy로 가져옴<br>자동 병합(Merge)</td>
-    </tr>
-    <tr>
       <td>git clone 원격지 주소</td>
       <td>Remote Repository -> Local Repository 복사</td>
       <td>해당 원격지의 모든 것을 Local Repsotiroy로 복사</td>
